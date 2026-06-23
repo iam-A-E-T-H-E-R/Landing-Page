@@ -20,8 +20,7 @@ li {
     background-color: #1F2937;
     padding: 15px 200px 100px 200px;
     width: 100%;
-    max-width:1300px;
-    
+    max-width: 1300px;
 
 
     display: flex;
@@ -33,16 +32,19 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-   
 }
 
-.page-title--white {
+.page-title {
     color: white;
     font-weight: 900;
-width: 100%;
-max-width: 240px;
+
 }
+
+.page-title--big {
+    width: 100%;
+    max-width: 240px;
+}
+
 .container-of-links {
     display: flex;
     gap: 20px;
@@ -51,13 +53,15 @@ max-width: 240px;
     font-size: 14px;
     color: #afb4bb;
 }
-.container-body-hero {
-display: flex;
-gap: 50px;
 
-  width: 100%;
+.container-body-hero {
+    display: flex;
+    gap: 50px;
+
+    width: 100%;
 }
-.left-section-hero {
+
+.left-group-hero {
     width: 100%;
     max-width: 370px;
 
@@ -65,11 +69,14 @@ gap: 50px;
     flex-direction: column;
     gap: 8px;
 }
-.text--small {
-color: #E5E7EB;
-font-size: 14px;
+
+.text--grey {
+    color: #E5E7EB;
+    font-size: 14px;
 }
-.btn--basic, .btn-of-sing-up {
+
+.btn-sing-up-V-one,
+.btn-sing-up-V-two {
     width: 85px;
     height: 25px;
     border-radius: 6px;
@@ -77,16 +84,16 @@ font-size: 14px;
     background-color: #3882F6;
     color: white;
 }
-.right-section-hero {
+
+.right-group-hero {
     width: 100%;
     max-width: 430px;
-   background-color: #6d747d; 
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
+    background-color: #6d747d;
+    color: white;
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* finish-1st-section */
@@ -94,28 +101,31 @@ justify-content: center;
 
 
 .second-section-container {
-width: 100%;
-max-width: 1300px;
-padding: 35px 0px 130px 0px;
+    width: 100%;
+    max-width: 1300px;
+    padding: 35px 0px 130px 0px;
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 35px;
-}
-.container-of-images-of-cards{
-    
     display: flex;
-    gap: 45px; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
 }
-.cards-container-body{
+
+.container-cards {
+
+    display: flex;
+    gap: 45px;
+}
+
+.card-container-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 7px;
 }
+
 .card-image {
     width: 154px;
     height: 150px;
@@ -124,9 +134,9 @@ gap: 35px;
 }
 
 .card-text {
-   text-align: center;
-   width: 100%;
-   max-width: 150px;
+    text-align: center;
+    width: 100%;
+    max-width: 150px;
 }
 
 /* finish-2nd-section */
@@ -144,57 +154,51 @@ gap: 35px;
     align-items: center;
     justify-content: center;
 }
-.quote{
+
+.quote {
     width: 100%;
-    max-width:590px ;
+    max-width: 590px;
     font-size: 26px;
     color: #1F2937;
 }
+
 .author-of-quote {
     width: 100%;
-     max-width:550px ;
+    max-width: 550px;
     text-align: right;
 }
 
-/* finish-3nd-section */
+/* finish-3th-section */
 
 
 
 .fourth-section-container {
-    background-color:white ;
+    background-color: white;
     width: 100%;
-    max-width:1300px;
+    max-width: 1300px;
     padding: 100px 170px 100px 170px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .section-sing-up {
     background-color: #3882F6;
-width: 100%;
-padding: 40px 100px 40px 100px;
-border-radius: 8px;
-
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-.left-section-sing-up {
     width: 100%;
+    padding: 40px 100px 40px 100px;
+    border-radius: 8px;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.page-title--white--long{
-   color: white;
-}
-.text-of-sing-up {
-color: #e5e7eb;
-}
-.btn-of-sing-up {
+
+.btn-sing-up-V-two {
     border: 2px solid white;
 }
 
-/* finish-3nd-section */ 
+/* finish-4th-section */
 
 
 
@@ -205,14 +209,17 @@ footer {
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .fiveth-section-container {
     width: 100%;
     max-width: 1300px;
     background-color: #1F2937;
-padding: 40px 0px 40px 0px;
-color: white;
+    padding: 40px 0px 40px 0px;
+    color: white;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* finish-footer-section */
