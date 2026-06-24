@@ -18,9 +18,10 @@ li {
 
 .first-section-container {
     background-color: #1F2937;
-    padding: 15px 200px 100px 200px;
+    padding: 15px 0px 120px 0px;
+    margin: 0 auto;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1150px;
 
 
     display: flex;
@@ -32,6 +33,10 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+        width: 100%;
+    margin: 0 auto;
+    max-width: 830px;
 }
 
 .page-title {
@@ -55,10 +60,11 @@ li {
 }
 
 .container-body-hero {
+    margin: 0 auto;
     display: flex;
-    gap: 50px;
-
+    justify-content: space-evenly;
     width: 100%;
+    max-width: 900px;
 }
 
 .left-group-hero {
@@ -79,7 +85,7 @@ li {
 .btn-sing-up-V-two {
     width: 85px;
     height: 25px;
-    border-radius: 6px;
+    border-radius: 5px;
     border: none;
     background-color: #3882F6;
     color: white;
@@ -102,9 +108,8 @@ li {
 
 .second-section-container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1150px;
     padding: 35px 0px 130px 0px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,9 +150,10 @@ li {
 
 .threeth-section-container {
     width: 100%;
-    max-width: 1300px;
-    padding: 110px 0px 110px 0px;
+    max-width: 1150px;
+    padding:100px 0px 110px 0px;
     background-color: #E5E7EB;
+margin: 0 auto;
 
     display: flex;
     flex-direction: column;
@@ -175,8 +181,9 @@ li {
 .fourth-section-container {
     background-color: white;
     width: 100%;
-    max-width: 1300px;
-    padding: 100px 170px 100px 170px;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 70px 140px 70px 140px;
 
     display: flex;
     align-items: center;
@@ -186,12 +193,14 @@ li {
 .section-sing-up {
     background-color: #3882F6;
     width: 100%;
-    padding: 40px 100px 40px 100px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 40px 50px 40px;
     border-radius: 8px;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btn-sing-up-V-two {
@@ -212,7 +221,7 @@ footer {
 
 .fiveth-section-container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1150px;
     background-color: #1F2937;
     padding: 40px 0px 40px 0px;
     color: white;
